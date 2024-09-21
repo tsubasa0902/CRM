@@ -117,10 +117,12 @@ return [
         ],
     ],
     'attributes'           => [
-        'name' => '名前',
+        'name' => '商品名',
         'email' => 'メールアドレス',
         'password' => 'パスワード',
         'title' => 'タイトル',
-        'content' => 'コンテンツ'
+        'content' => 'コンテンツ',
+        'price' => '商品価格',
+        'memo' => 'メモ'
     ],
 ];
