@@ -123,6 +123,13 @@ return [
         'title' => 'タイトル',
         'content' => 'コンテンツ',
         'price' => '商品価格',
-        'memo' => 'メモ'
+        'memo' => 'メモ',
+        'kana' => 'カナ',
+        'tel' => '電話番号',
+        'email' => 'メールアドレス',
+        'postcode' => '郵便番号',
+        'address' => '住所',
+        'birthday' => '誕生日',
+        'gender' => '性別'
     ],
 ];
