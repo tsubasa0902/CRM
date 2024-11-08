@@ -12,7 +12,6 @@ const searchCustomers = async () => {
 		await axios.get(`/api/searchCustomers/?search=${search.value}`).then(
 			res => {
 				customers.value = res.data
-				console.log(customers.value)
 			}
 		)
 		toggleStatus()

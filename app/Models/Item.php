@@ -17,3 +17,4 @@ class Item extends Model
         return $this->belongsToMany(Purchase::class)->withPivot('quantity');
     }
 }
+ 
