@@ -129,7 +129,7 @@ class PurchaseController extends Controller
      */
     public function update(UpdatePurchaseRequest $request, Purchase $purchase)
     {
-         DB::beginTransaction();
+        DB::beginTransaction();
         try {
         $purchase->status = $request->status;
         $purchase->save();
